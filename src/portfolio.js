@@ -4,11 +4,11 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Rohan Kokkula | Portfolio",
+  title: "Riten Bhagra | Portfolio",
   description:
-    "A Data Science practitioner who thrives to leverage startups with AI based solutions with a blend of UI/UX",
+    "Unleashing Data's Potential with Masterful Insight and Innovation",
   og: {
-    title: "Rohan Portfolio",
+    title: "Riten Portfolio",
     type: "website",
     url: "http://rohankokkula.ml/",
   },
@@ -16,10 +16,11 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Namaste!",
-  sub: "Rohan Kokkula",
-  logo_name: "Rohan Kokkula",
-  resumeLink: "",
+  title: "Hi 👋!",
+  sub: "Riten Bhagra",
+  logo_name: "Riten Bhagra",
+  resumeLink:
+    "https://drive.google.com/file/d/1SuZF_AJQpcN7S3jL_9NEazbHLYdNTjQF/view?usp=sharing",
 };
 
 // home logos
@@ -31,7 +32,7 @@ const competitiveSites = {
       style: {
         color: "white",
       },
-      profileLink: "https://github.com/rohankokkula",
+      profileLink: "https://github.com/thebarcelonaguy",
     },
     {
       siteName: "HackerRank",
@@ -39,40 +40,40 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/rohankokkula01",
+      profileLink: "https://www.hackerrank.com/profile/ritenbhagra2000",
     },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/rohan0301",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@rohankokkula",
-    },
+    // {
+    //   siteName: "Kaggle",
+    //   iconifyClassname: "simple-icons:kaggle",
+    //   style: {
+    //     color: "#20BEFF",
+    //   },
+    //   profileLink: "https://www.kaggle.com/rohan0301",
+    // },
+    // {
+    //   siteName: "Hackerearth",
+    //   iconifyClassname: "simple-icons:hackerearth",
+    //   style: {
+    //     color: "#323754",
+    //   },
+    //   profileLink: "https://www.hackerearth.com/@rohankokkula",
+    // },
     {
       siteName: "LinkedIn",
       iconifyClassname: "simple-icons:linkedin",
       style: {
         color: "#0077b5",
       },
-      profileLink: "https://www.linkedin.com/in/rohankokkula/",
+      profileLink: "https://www.linkedin.com/in/riten-bhagra/",
     },
-    {
-      siteName: "HashNode",
-      iconifyClassname: "simple-icons:hashnode",
-      style: {
-        color: "#2962ff",
-      },
-      profileLink: "",
-    },
+    // {
+    //   siteName: "HashNode",
+    //   iconifyClassname: "simple-icons:hashnode",
+    //   style: {
+    //     color: "#2962ff",
+    //   },
+    //   profileLink: "",
+    // },
   ],
 };
 
