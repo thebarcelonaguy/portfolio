@@ -22,19 +22,19 @@ export default function Greeting(props) {
               <h1 className="greeting-sub" style={{ color: theme.grayText }}>
                 I'm <mark data-entity="person">{greeting.sub}</mark>
               </h1>
-              <h1 className="greeting-typewriter" style={{color: theme.blue}}>
+              <h1 className="greeting-typewriter" style={{ color: theme.blue }}>
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString("Data Scientist(NLP)")
+                      .typeString("Data Scientist")
                       .pauseFor(200)
                       .deleteAll()
-                      .typeString("Web Developer")
+                      .typeString("Full Stack Developer")
                       .pauseFor(200)
                       .deleteAll()
-                      .typeString("UI/UX Designer")
-                      .pauseFor(200)
-                      .deleteAll()
+                      // .typeString("UI/UX Designer")
+                      // .pauseFor(200)
+                      // .deleteAll()
                       .typeString("IT Engineer")
                       .pauseFor(200)
                       .start();
@@ -47,14 +47,37 @@ export default function Greeting(props) {
               </h1>
               <span
                 className="greeting-text-span subTitle"
-                style={{ color: theme.text }}>
+                style={{ color: theme.text }}
+              >
                 <div className="entities">
-                  A <mark data-entity="noun">Data Science practitioner</mark>{" "}
-                  who thrives to{" "}
-                  <mark data-entity="verb">leverage Startups</mark> using
-                  AI-based solutions along with{" "}
-                  <mark data-entity="skill">Web Development</mark> and a blend
-                  of <mark data-entity="freelance">UI/UX Designing</mark>
+                  <p>
+                    A{" "}
+                    <mark data-entity="noun">
+                      Master's graduate in Applied Data Science
+                    </mark>{" "}
+                    from the{" "}
+                    <mark data-entity="institution">
+                      University of Southern California
+                    </mark>
+                    passionate about
+                    <mark data-entity="noun">Data Science</mark>
+                  </p>
+                  <p>
+                    Boasting skills in
+                    <mark data-entity="skill">Machine Learning</mark>
+                    <mark data-entity="skill">Data Visualization</mark> and
+                    <mark data-entity="skill">Web Development</mark> with an aim
+                    to
+                    <mark data-entity="verb">enhance</mark>
+                    business insights and decision-making capabilities through
+                    AI-driven analytics.
+                  </p>
+                  <p>
+                    Dedicated to <mark data-entity="verb">leveraging</mark> a
+                    combination of advanced analytics and full-stack development
+                    expertise to <mark data-entity="verb">drive</mark>{" "}
+                    innovation and tackle complex challenges.
+                  </p>
                 </div>
               </span>
               <CompetitiveSites logos={competitiveSites.competitiveSites} />

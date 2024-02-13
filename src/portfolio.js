@@ -6,7 +6,7 @@ const settings = {
 const seo = {
   title: "Riten Bhagra | Portfolio",
   description:
-    "Unleashing Data's Potential with Masterful Insight and Innovation",
+    "Master's student at USC with a passion for data science and web development, leveraging advanced analytics and full-stack skills to drive insights and innovation.",
   og: {
     title: "Riten Portfolio",
     type: "website",
@@ -507,10 +507,14 @@ const resumeright = {
       title: ["Education"],
       data: [
         {
-          title: "Bachelor of Engineering in Information Technology",
-          subtitle: "Vidyalankar Institute of Technology, Mumbai",
-          date: "2016 - 2020",
-          content: ["CGPA: 8.06/10"],
+          title: "Master of Science in Applied Data Science",
+          subtitle:
+            "University of Southern California, Los Angeles, California",
+          date: "Jan 2023–Dec 2024",
+          content: [
+            "GPA: 3.80/4.0",
+            "Relevant Coursework: Foundations of Data Management, Machine Learning, Optimisation techniques for Data Science, Data Science Professional Practicum, Data Mining.",
+          ],
         },
         {
           title: "Higher Secondary Certificate [HSC]",
