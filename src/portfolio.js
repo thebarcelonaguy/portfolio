@@ -514,8 +514,7 @@ const resumeright = {
           ],
         },
         {
-          title:
-            "Computer Science and Engineering(Specialization in Cyber Security)",
+          title: "Computer Science and Engineering",
           subtitle: "Vellore Institute of Technology",
           date: "2018 - 2022",
           content: ["GPA: 3.8/4"],
