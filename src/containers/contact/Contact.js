@@ -17,10 +17,7 @@ export default function Contact() {
             </a>
             <br />
             <br />
-            <a
-              className="contact-detail-email"
-              href={"mailto:" + contactInfo.email_address}
-            >
+            <a className="contact-detail-email" href={"mailto:bhagra@usc.edu"}>
               {contactInfo.email_address}
             </a>
             <br />

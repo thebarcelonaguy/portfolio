@@ -61,7 +61,8 @@
 
 .greeting-image-div > * {
   max-width: 100%;
-  height: auto;
+  height: 100%;
+  margin-top: -40px;
 }
 
 /* Media Query */
@@ -187,7 +188,9 @@
   color: rgb(0, 0, 0);
 }
 
-[data-entity][data-entity="person"] {
+[data-entity][data-entity="goal"] {
+  margin-left: -0.2em;
+  margin-top: 0.3cm;
   background: rgba(45, 226, 217, 0);
   border-color: rgb(45, 226, 141);
   color: rgb(255, 255, 255);
@@ -227,4 +230,8 @@
 
 [data-entity][data-entity="verb"]::after {
   background: rgb(21, 124, 112);
+}
+.greeting-sub mark {
+  margin-left: 10px;
+  font-size: 40px;
 }

@@ -20,8 +20,10 @@ export default function Greeting(props) {
                 {greeting.title}
               </h1>
               <h1 className="greeting-sub" style={{ color: theme.grayText }}>
-                I'm <mark data-entity="person">{greeting.sub}</mark>
+                I'm <span style={{ color: "#86BBD8" }}>Riten Bhagra</span>{" "}
+                <mark data-entity="goal">{greeting.sub}</mark>
               </h1>
+
               <h1 className="greeting-typewriter" style={{ color: theme.blue }}>
                 <Typewriter
                   onInit={(typewriter) => {
@@ -50,7 +52,7 @@ export default function Greeting(props) {
                 style={{ color: theme.text }}
               >
                 <div className="entities">
-                  <p>
+                  {/* <p>
                     A{" "}
                     <mark data-entity="noun">
                       Master's graduate in Applied Data Science
@@ -61,7 +63,7 @@ export default function Greeting(props) {
                     </mark>
                     passionate about
                     <mark data-entity="noun">Data Science</mark>
-                  </p>
+                  </p> */}
                   <p>
                     Boasting skills in
                     <mark data-entity="skill">Machine Learning</mark>
@@ -72,16 +74,26 @@ export default function Greeting(props) {
                     business insights and decision-making capabilities through
                     AI-driven analytics.
                   </p>
-                  <p>
+                  {/* <p>
                     Dedicated to <mark data-entity="verb">leveraging</mark> a
                     combination of advanced analytics and full-stack development
                     expertise to <mark data-entity="verb">drive</mark>{" "}
                     innovation and tackle complex challenges.
-                  </p>
+                  </p> */}
+                  {/* <p>
+                    <mark data-entity="verb">Looking </mark>for summer 2024{" "}
+                    <mark data-entity="noun">INTERNSHIP</mark> and{" "}
+                    <mark data-entity="noun">FULL TIME</mark> opportunities
+                  </p> */}
                 </div>
               </span>
               <CompetitiveSites logos={competitiveSites.competitiveSites} />
               <div className="button-greeting-div">
+                <Button
+                  text="About me"
+                  newTab={true}
+                  href={greeting.resumeLink}
+                />
                 <Button text="Contact me" href="/contact" />
                 <Button
                   text="See my resume"

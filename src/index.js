@@ -8,6 +8,7 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "./assets/font-awesome/css/all.css";
+// Importing Font Awesome CSS
 
 const engine = new Styletron();
 ReactDOM.render(

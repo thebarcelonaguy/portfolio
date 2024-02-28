@@ -8,6 +8,7 @@
   line-height: normal;
   font-family: "Google Sans Regular";
   text-align: center;
+  margin-top: -210px;
 }
 
 .skills-text {
@@ -27,7 +28,6 @@
 .skills-image-div > * {
   max-width: 100%;
   height: auto;
-  margin-top: 40px;
 }
 
 .skills-heading {
@@ -44,6 +44,7 @@
   }
   .skills-header {
     font-size: 50px;
+    margin-top: -20rem;
   }
   /* .skills-image-div > img {
     margin-top: 0px;
@@ -56,6 +57,7 @@
   }
   .skills-header {
     font-size: 30px;
+    margin-top: -10rem;
   }
   .greeting-text-p {
     font-size: 16px;

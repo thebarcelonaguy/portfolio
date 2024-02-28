@@ -10,14 +10,14 @@ const seo = {
   og: {
     title: "Riten Portfolio",
     type: "website",
-    url: "http://rohankokkula.ml/",
+    url: "https://ritenbhagra.netlify.app/education",
   },
 };
 
 //Home Page
 const greeting = {
   title: "Hi 👋!",
-  sub: "Riten Bhagra",
+  sub: " Seeking for Summer'24 Internships",
   logo_name: "Riten Bhagra",
   resumeLink:
     "https://drive.google.com/file/d/1SuZF_AJQpcN7S3jL_9NEazbHLYdNTjQF/view?usp=sharing",
@@ -453,50 +453,47 @@ const resumeleft = {
     title: ["Experience"],
     data: [
       {
-        title: "Data Scientist",
-        subtitle: "Nactus India Services Private Limited",
-        date: "June 2020 - present",
+        title: "Web Developer",
+        subtitle: "Graduates Rising in Information and Data Science",
+        date: "August 2023 - Feb 2024",
         content: [
-          "Used T5 Transformer Model to build a Question Answering Model which generates questions based on Keywords extracted (WordNet, Sense2Vec) from studyshot notes.",
-          "Built an MCQ Generation model using BERT",
-          "Developed a personalized Chatbot using Rasa (Botfront.io).",
-          "Created an Automatic Thumbnail Generator & Uploader for our youtube videos using Youtube v3 API",
-          "Working on OpenAI's semantic search engine.",
-          "Created a Clean MaterialUI Design for prototyping and design fixing before production-ready of APP",
-          "Created FrontEnd components for StudyShot website",
-          "Working on recommendation system for concept notes and questions based on student's behavior on our Flutter App(tracking)",
+          "Spearheaded development of 3 dynamic, user-centric web applications with Next.js, ensuring server-side rendering improves page loading speeds by up to 15% and yields a 10% boost in SEO rankings.",
+          "Utilized Angular's two-way data binding to create real-time, interactive, and data-driven web applications, elevating user experience.",
+          "Ensured secure, reliable, and smooth data transfer between frontend and backend systems through effective API integrations using JavaScript and Next.js and reducing data fetch times by 20%.",
         ],
       },
       {
-        title: "Machine Learning Intern",
-        subtitle: "Listnr",
-        date: "April 2020 - June 2020",
+        title: "Data Analyst",
+        subtitle: "Syvylyze Analytics",
+        date: "May 2021 - November 2021",
         content: [
-          "My role at Listnr included a lot of research work about Audio Encoders and Vocoders and Speech Synthesis in general.",
-          "Worked on some SOTA Inference TTS Models such as TacoTron2, FastSpeech2, and Wavenet.",
-          "Also had hands-on with real-time voice cloning algorithm.",
+          "Improved operational efficiency by optimizing Google Maps API to decrease geolocation lookup time by 30%, resulting in a faster data retrieval process.",
+          "Devised user-friendly apps for accessing Google Drive APIs, resulting in a 40% increase in GSheet data retrieval speed.",
+          "Conducted and presented detailed quantitative analyses to business stakeholders, aiding data-driven decision- making by utilizing tools such as Tableau for visualization.",
+          "Achieved 98% accuracy in log analysis by configuring Elastic Search, Logstash, Kibana Stack to identify and resolve system issues promptly.",
         ],
       },
       {
-        title: "Data Science Intern",
-        subtitle: "iNeuron.ai",
-        date: "Nov 2020 - January 2021",
+        title: "Technical Intern",
+        subtitle: "Madhya Pradesh Police",
+        date: "May 2020 - June 2020",
         content: [
-          "Phase 1 included Data Cleaning & Data Annotation for object detection task",
-          "Used YOLO v5 for Fire Detection Project",
+          "Designed an efficient SOS prototype application, cutting down response time by 40% for emergency situations",
+          "Collaborated with law enforcement officers to establish reward criteria and regulations, ensuring compliance with legal framework of the Indian Penal Code, resulting in 95% compliance rate among users.",
+          "Designed and implemented automated reports for analytics, ensuring stakeholders received timely and accurate insights for strategic decision- making.",
         ],
       },
-      {
-        title: "Summer Analytics Participant",
-        subtitle: "IIT Guwahati",
-        date: "April 2020 - June 2020",
-        content: [
-          "Learnt & applied various Machine Learning libraries",
-          "Had hands-on with Data Visualization techniques using matplotlib, plotly, streamlit",
-          "Understood and applied Neural networks using Tensorflow and finally competed in Kaggle Hackathon ranking 135 (top 16 percentile) among 854 Kaggle participants",
-          "Ranked 85 out of 1500+ students for overall performance.",
-        ],
-      },
+      // {
+      //   title: "Summer Analytics Participant",
+      //   subtitle: "IIT Guwahati",
+      //   date: "April 2020 - June 2020",
+      //   content: [
+      //     "Learnt & applied various Machine Learning libraries",
+      //     "Had hands-on with Data Visualization techniques using matplotlib, plotly, streamlit",
+      //     "Understood and applied Neural networks using Tensorflow and finally competed in Kaggle Hackathon ranking 135 (top 16 percentile) among 854 Kaggle participants",
+      //     "Ranked 85 out of 1500+ students for overall performance.",
+      //   ],
+      // },
     ],
   },
 };
@@ -517,10 +514,11 @@ const resumeright = {
           ],
         },
         {
-          title: "Higher Secondary Certificate [HSC]",
-          subtitle: "Dr. Antonio Da Silva Technical Jr. College, Mumbai",
-          date: "2014 - 2016",
-          content: ["Precentage: 80%"],
+          title:
+            "Computer Science and Engineering(Specialization in Cyber Security)",
+          subtitle: "Vellore Institute of Technology",
+          date: "2018 - 2022",
+          content: ["GPA: 3.8/4"],
         },
       ],
     },
@@ -530,39 +528,38 @@ const resumeright = {
         {
           title: "Ranks",
           content: [
-            "#135/854 in Summer Analytics Kaggle Competition by IITG",
+            "Achieved 2nd rank in the Bachelor of Technology program , demonstrating a strong grasp of computer science principles, dedication to academic excellence, and a consistent track record of outstanding performance in a competitive academic environment. ",
             "#113/5064 in CV-NLP Hackathon by HackerEarth",
           ],
         },
         {
           title: "Achievements",
           content: [
-            "Designing Team Head at ACM-VIT",
+            "Marketing Team Head at AdVitya-VIT",
             "5⭐ Gold Badges for Python & Problem Solving at HackerRank ",
-            "Tableau Analyst & Consumer Badge by Tableau Official",
           ],
         },
       ],
     },
-    {
-      title: ["Freelance Work"],
-      data: [
-        {
-          title: "Consultancy Website",
-          subtitle: "kidsworldeducationconsultants.com",
-          content: [
-            "Created and hosted a website for consultancy providers in Kids Education Domain",
-          ],
-        },
-        {
-          title: "Portfolio Website",
-          subtitle: "pranavphulware.netlify.app",
-          content: [
-            "Built a personal Filmography portfolio for a friend and later hosted it at Netlify",
-          ],
-        },
-      ],
-    },
+
+    //   title: ["Freelance Work"],
+    //   data: [
+    //     {
+    //       title: "Consultancy Website",
+    //       subtitle: "kidsworldeducationconsultants.com",
+    //       content: [
+    //         "Created and hosted a website for consultancy providers in Kids Education Domain",
+    //       ],
+    //     },
+    //     {
+    //       title: "Portfolio Website",
+    //       subtitle: "pranavphulware.netlify.app",
+    //       content: [
+    //         "Built a personal Filmography portfolio for a friend and later hosted it at Netlify",
+    //       ],
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -574,7 +571,7 @@ const certifications = {
       subtitle: "Tableau",
       logo_path: "tabana-01.png",
       certificate_link:
-        "https://www.credly.com/badges/2d43f401-7be0-407d-9a77-7477dda8cade/linked_in_profile",
+        "https://www.credly.com/badges/2d43f401-7be0-407d-9a77-7",
       alt_name: "Tableau",
       color_code: "#000000",
     },
@@ -582,8 +579,7 @@ const certifications = {
       title: "Tableau Consumer",
       subtitle: "Tableau",
       logo_path: "tabcon-01.png",
-      certificate_link:
-        "https://www.credly.com/badges/e5befe7b-2eec-486f-b77e-bd2458c18b26/linked_in_profile",
+      certificate_link: "https://www.credly.com/badges/e5befe7b-2eec-486f-b77e",
       alt_name: "Tableau",
       color_code: "#000000",
     },
@@ -591,7 +587,7 @@ const certifications = {
       title: "Problem solving",
       subtitle: "HackerRank",
       logo_path: "problem-01.png",
-      certificate_link: "https://www.hackerrank.com/rohankokkula",
+      certificate_link: "https://www.hackerrank.com",
       alt_name: "HackerRank",
       color_code: "#000000",
     },
@@ -599,25 +595,25 @@ const certifications = {
       title: "Python",
       subtitle: "HackerRank",
       logo_path: "python-01.png",
-      certificate_link: "https://www.hackerrank.com/rohankokkula",
+      certificate_link: "https://www.hackerrank.com",
       alt_name: "HackerRank",
       color_code: "#000000",
     },
-    {
-      title: "Certificate of Merit",
-      subtitle: "Summer Analytics | IIT Guwahati",
-      logo_path: "iitg-01.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "IITG",
-      color_code: "#000000",
-    },
+    // {
+    //   title: "Certificate of Merit",
+    //   subtitle: "Summer Analytics | IIT Guwahati",
+    //   logo_path: "iitg-01.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+    //   alt_name: "IITG",
+    //   color_code: "#000000",
+    // },
     {
       title: "Tableau Desktop Qualified Associate",
       subtitle: "SimpliLearn",
       logo_path: "simplilearn-01.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTMA",
       alt_name: "Simplilearn",
       color_code: "#000000",
     },
@@ -626,7 +622,7 @@ const certifications = {
       subtitle: "Udemy",
       logo_path: "udemy-01.png",
       certificate_link:
-        "https://www.udemy.com/certificate/UC-b17c4c21-91e3-4f8b-b9c2-259468910985/",
+        "https://www.udemy.com/certificate/UC-b17c4c21-91e3-4f8b-b9c2-2594689109856/",
       alt_name: "Udemy",
       color_code: "#000000",
     },
@@ -635,7 +631,7 @@ const certifications = {
       subtitle: "Stanford University",
       logo_path: "coursera-01.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTMA",
       alt_name: "Stanford University",
       color_code: "#000000",
     },
@@ -644,37 +640,37 @@ const certifications = {
       subtitle: "University of Michigan",
       logo_path: "coursera-01.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTMA",
       alt_name: "University of Michigan",
       color_code: "#000000",
     },
-    {
-      title: "Data Scientist Career Track",
-      subtitle: "DataCamp",
-      logo_path: "datacamp-01.png",
-      certificate_link:
-        "https://www.datacamp.com/statement-of-accomplishment/track/29f2ddab3fbfd0a470713a19c729c0f9d89c88aa",
-      alt_name: "DataCamp",
-      color_code: "#000000",
-    },
-    {
-      title: "PowerBI Masters",
-      subtitle: "iNeuron.ai",
-      logo_path: "ineuron-01.png",
-      certificate_link:
-        "https://academy.ineuron.ai/certificates/downloads/PB009929.pdf",
-      alt_name: "HackerRank",
-      color_code: "#000000",
-    },
-    {
-      title: "Tableau Masters",
-      subtitle: "iNeuron.ai",
-      logo_path: "ineuron-01.png",
-      certificate_link:
-        "https://academy.ineuron.ai/certificates/downloads/TB000634.pdf",
-      alt_name: "HackerRank",
-      color_code: "#000000",
-    },
+    // {
+    //   title: "Data Scientist Career Track",
+    //   subtitle: "DataCamp",
+    //   logo_path: "datacamp-01.png",
+    //   certificate_link:
+    //     "https://www.datacamp.com/statement-of-accomplishment/track/29f2ddab3fbfd0a470713a19c729c0f9d89c88aa",
+    //   alt_name: "DataCamp",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "PowerBI Masters",
+    //   subtitle: "iNeuron.ai",
+    //   logo_path: "ineuron-01.png",
+    //   certificate_link:
+    //     "https://academy.ineuron.ai/certificates/downloads/PB009929.pdf",
+    //   alt_name: "HackerRank",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "Tableau Masters",
+    //   subtitle: "iNeuron.ai",
+    //   logo_path: "ineuron-01.png",
+    //   certificate_link:
+    //     "https://academy.ineuron.ai/certificates/downloads/TB000634.pdf",
+    //   alt_name: "HackerRank",
+    //   color_code: "#000000",
+    // },
   ],
 };
 
@@ -684,50 +680,52 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "contact.jpg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours :)",
   },
   addressSection: {
     title: "Address",
-    subtitle: "Prabhadevi, Mumbai-400025",
+    subtitle: "Los Angeles, CA-90007",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+91 9022817659",
+    subtitle: "+91 840200****",
   },
 };
+
+// Example of updating contactInfo in portfolio.js
 
 //contact icons
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/rohankokkula",
+    link: "https://github.com/thebarcelonaguy",
     iconifyClassname: "simple-icons:hackerrank",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/rohankokkula/",
+    link: "https://www.linkedin.com/in/riten-bhagra/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  {
-    name: "YouTube",
-    link: "https://www.youtube.com/c/rohanalytics",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
+  // {
+  //   name: "YouTube",
+  //   link: "https://www.youtube.com/c/rohanalytics",
+  //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
+  //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+  // },
   {
     name: "Gmail",
-    link: "mailto:rohankokkula01@gmail.com",
+    link: "mailto:bhagra@usc.edu",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
-    name: "Instagram",
-    link: "https://www.instagram.com/soberohan/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+    name: "Twitter",
+    link: "https://twitter.com/barcelonaguy22",
+    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/instagram?style=brands
+    backgroundColor: "lightblue", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
