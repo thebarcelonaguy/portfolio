@@ -10,28 +10,37 @@
   margin-top: 1rem;
 }
 
+.competitive-sites {
+  margin-top: -2.1em;
+}
+
 .gretting-main {
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
 }
+.skills-header {
+  margin-top: -1.8em;
+}
 
 .greeting-main {
   display: flex;
 }
-
+.entities {
+  margin-top: -1.2em;
+}
 .greeting-main > * {
   flex: 1;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 .button-greeting-div {
   display: flex;
-  margin-top: 10px;
+  margin-top: 1px;
   text-align: center;
 }
 
 .greeting-text {
-  margin-top: 0px;
+  margin-top: -0.4em;
   font-size: 100px;
   margin-bottom: 0px;
   line-height: 1.1;
