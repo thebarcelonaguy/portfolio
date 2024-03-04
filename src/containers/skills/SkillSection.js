@@ -19,7 +19,7 @@ class SkillSection extends Component {
   render() {
     const theme = this.props.theme;
     return (
-      <div>
+      <div class="poland">
         {skills.data.map((skill) => {
           return (
             <div className="skills-main-div">
