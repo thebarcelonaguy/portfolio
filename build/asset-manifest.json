@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.8a7a9859.chunk.css",
+    "main.css": "./static/css/main.ec2ab0a8.chunk.css",
     "main.js": "./static/js/main.e2faad9d.chunk.js",
     "main.js.map": "./static/js/main.e2faad9d.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.27e1caf8.js",
@@ -8,9 +8,9 @@
     "static/js/2.8db553fa.chunk.js": "./static/js/2.8db553fa.chunk.js",
     "static/js/2.8db553fa.chunk.js.map": "./static/js/2.8db553fa.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.4a41e9c9fb2aa5609029f901d243a4b8.js": "./precache-manifest.4a41e9c9fb2aa5609029f901d243a4b8.js",
+    "precache-manifest.433414fa46bfc6542b4144229545bc85.js": "./precache-manifest.433414fa46bfc6542b4144229545bc85.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.8a7a9859.chunk.css.map": "./static/css/main.8a7a9859.chunk.css.map",
+    "static/css/main.ec2ab0a8.chunk.css.map": "./static/css/main.ec2ab0a8.chunk.css.map",
     "static/media/index.css": "./static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Relu-Activation-Function.gif": "./static/media/Relu-Activation-Function.c0c6a349.gif",
     "static/media/acti.gif": "./static/media/acti.5eae8648.gif",
@@ -40,7 +40,7 @@
   "entrypoints": [
     "static/js/runtime-main.27e1caf8.js",
     "static/js/2.8db553fa.chunk.js",
-    "static/css/main.8a7a9859.chunk.css",
+    "static/css/main.ec2ab0a8.chunk.css",
     "static/js/main.e2faad9d.chunk.js"
   ]
 }

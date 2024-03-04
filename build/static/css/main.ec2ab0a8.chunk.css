@@ -231,10 +231,21 @@ body {
   .header .menu-icon {
     display: none;
   }
+  .logo_header {
+    margin-left: 20px;
+  }
 }
 @media (max-width: 960px) and (min-width: 768px) {
   .header {
     font-size: 12px;
+  }
+}
+@media (min-width: 390px) {
+  .header {
+    font-size: 12px;
+  }
+  .logo_header {
+    margin-left: -50px;
   }
 }
 .main {
@@ -350,9 +361,50 @@ body {
     margin-top: 10px;
   }
 }
+@media (max-width: 390px) {
+  .button-greeting-div {
+    justify-content: space-around;
+  }
+  .greeting-text {
+    font-size: 40px;
+    margin-top: -30px;
+  }
+  .greeting-sub {
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 0;
+    line-height: 1.1;
+    font-family: Google Sans Bold;
+  }
+  .greeting-typewriter {
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+  .greeting-text-span {
+    font-size: 15px;
+    margin-right: 0;
+    line-height: normal;
+    margin-bottom: 0;
+  }
+  .greeting-main {
+    display: block;
+  }
+  .button-greeting-div {
+    display: flex;
+    margin-top: -10px;
+    text-align: center;
+  }
+  .greeting-text-div {
+    margin-left: 1em;
+  }
+}
 @media (max-width: 480px) {
   .button-greeting-div {
     justify-content: space-around;
+  }
+  .greeting-text-div {
+    margin-left: 1.2em;
   }
   .greeting-text {
     font-size: 50px;
@@ -559,6 +611,9 @@ body {
     font-size: 50px;
     margin-top: -20rem;
   }
+  .skills-image-div > img {
+    margin-top: 0;
+  }
 }
 @media (max-width: 768px) {
   .skills-heading {
@@ -577,7 +632,7 @@ body {
     flex-direction: column;
   }
   .skills-text-div {
-    margin: 20px;
+    margin: 20px 20px 20px 50px;
   }
   .skills-text {
     font-size: 16px;
@@ -5980,4 +6035,4 @@ a.badge-dark:focus {
 .fas {
   font-weight: 900;
 }
-/*# sourceMappingURL=main.8a7a9859.chunk.css.map */
+/*# sourceMappingURL=main.ec2ab0a8.chunk.css.map */

@@ -124,9 +124,53 @@
     margin-top: 10px;
   }
 }
+@media (max-width: 390px) {
+  .button-greeting-div {
+    justify-content: space-around;
+  }
+  .greeting-text {
+    font-size: 40px;
+    margin-top: -30px;
+  }
+  .greeting-sub {
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 0px;
+    line-height: 1.1;
+    font-family: "Google Sans Bold";
+  }
+
+  .greeting-typewriter {
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+  .greeting-text-span {
+    font-size: 15px;
+    margin-right: 0px;
+    line-height: normal;
+    margin-bottom: 0px;
+  }
+  .greeting-main {
+    display: block;
+  }
+
+  .button-greeting-div {
+    display: flex;
+    margin-top: -10px;
+    text-align: center;
+  }
+  .greeting-text-div {
+    margin-left: 1em;
+  }
+}
+
 @media (max-width: 480px) {
   .button-greeting-div {
     justify-content: space-around;
+  }
+  .greeting-text-div {
+    margin-left: 1.2em;
   }
   .greeting-text {
     font-size: 50px;
