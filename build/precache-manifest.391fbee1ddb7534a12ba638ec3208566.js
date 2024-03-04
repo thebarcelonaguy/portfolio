@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    revision: "1dde7261e7bf4a359e81cc377c68ef14",
+    revision: "e15854e417238ee39d40106e62fe97da",
     url: "./index.html",
   },
   {
-    revision: "1f373526f4293d33e71e",
-    url: "./static/css/main.ec2ab0a8.chunk.css",
+    revision: "2cd39b6d9df7ea63ce67",
+    url: "./static/css/main.687ec343.chunk.css",
   },
   {
-    revision: "b6ff12da6aef84f1b5cf",
-    url: "./static/js/2.8db553fa.chunk.js",
+    revision: "6e5ea0d832c89d6c2891",
+    url: "./static/js/2.aa0ddb41.chunk.js",
   },
   {
-    revision: "1f373526f4293d33e71e",
-    url: "./static/js/main.e2faad9d.chunk.js",
+    revision: "2cd39b6d9df7ea63ce67",
+    url: "./static/js/main.16a84bd5.chunk.js",
   },
   {
     revision: "bee433591f2bc2a6100a",
@@ -136,6 +136,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     url: "./static/media/fa-solid-900.c2801fb4.svg",
   },
   {
+    revision: "d375a16e887c10ca88249f223fe98bc6",
+    url: "./static/media/hadoop.d375a16e.png",
+  },
+  {
+    revision: "0a7c6d300c86cac49a6c5979eca5bc6c",
+    url: "./static/media/hadoop1.0a7c6d30.webp",
+  },
+  {
     revision: "ccb710b7462e7dc63ecd8aff587374ac",
     url: "./static/media/iitg-01.ccb710b7.png",
   },
@@ -154,6 +162,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     revision: "4f42a4cb6130711885ca92e07912dc0d",
     url: "./static/media/news.4f42a4cb.gif",
+  },
+  {
+    revision: "437fa9f3e036fb1b0034eea30c99f812",
+    url: "./static/media/pdf.437fa9f3.webp",
   },
   {
     revision: "e19e9a690c9506606a6035dcf93ea524",
@@ -184,8 +196,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     url: "./static/media/python-01.6369a07c.png",
   },
   {
+    revision: "b35f209afb91adb1693eddf724145047",
+    url: "./static/media/sentiment.b35f209a.png",
+  },
+  {
     revision: "d2641629f3a39c0bbb0e502cb1274e9c",
     url: "./static/media/simplilearn-01.d2641629.png",
+  },
+  {
+    revision: "973877a460f526b1e460db015471ac29",
+    url: "./static/media/stock.973877a4.webp",
   },
   {
     revision: "bb24e623f32da61e6c1278add6ec3161",
@@ -194,6 +214,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     revision: "f59dceabccf06d52160e2b7e68bf985f",
     url: "./static/media/tabcon-01.f59dceab.png",
+  },
+  {
+    revision: "1aec8f98b064bf76f24c25f8df726f80",
+    url: "./static/media/transfer.1aec8f98.png",
+  },
+  {
+    revision: "f605b88d4d85f5f51711b473cf4a4a4a",
+    url: "./static/media/twitter.f605b88d.png",
   },
   {
     revision: "1de5364c67dd60e0d0aa9567f207ae87",

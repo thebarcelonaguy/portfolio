@@ -38,7 +38,7 @@
     ,
     ,
     function (a, i, t) {
-      a.exports = t(123);
+      a.exports = t(130);
     },
     ,
     ,
@@ -172,16 +172,23 @@
         "./Relu-Activation-Function.gif": 108,
         "./acti.gif": 109,
         "./activation-functions.gif": 110,
-        "./neural.gif": 111,
-        "./news.gif": 112,
-        "./project-01.png": 113,
-        "./project-02.png": 114,
-        "./project-03.png": 115,
-        "./project-04.png": 116,
-        "./project-05.png": 117,
-        "./project-06.png": 118,
-        "./project-07.png": 119,
-        "./voice.gif": 120,
+        "./hadoop.png": 111,
+        "./hadoop1.webp": 112,
+        "./neural.gif": 113,
+        "./news.gif": 114,
+        "./pdf.webp": 115,
+        "./project-01.png": 116,
+        "./project-02.png": 117,
+        "./project-03.png": 118,
+        "./project-04.png": 119,
+        "./project-05.png": 120,
+        "./project-06.png": 121,
+        "./project-07.png": 122,
+        "./sentiment.png": 123,
+        "./stock.webp": 124,
+        "./transfer.png": 125,
+        "./twitter.png": 126,
+        "./voice.gif": 127,
       };
       function r(a) {
         var i = s(a);
@@ -211,10 +218,19 @@
       a.exports = t.p + "static/media/activation-functions.5c232fa1.gif";
     },
     function (a, i, t) {
+      a.exports = t.p + "static/media/hadoop.d375a16e.png";
+    },
+    function (a, i, t) {
+      a.exports = t.p + "static/media/hadoop1.0a7c6d30.webp";
+    },
+    function (a, i, t) {
       a.exports = t.p + "static/media/neural.5aa6bdcc.gif";
     },
     function (a, i, t) {
       a.exports = t.p + "static/media/news.4f42a4cb.gif";
+    },
+    function (a, i, t) {
+      a.exports = t.p + "static/media/pdf.437fa9f3.webp";
     },
     function (a, i, t) {
       a.exports = t.p + "static/media/project-01.1a47ef14.png";
@@ -240,6 +256,18 @@
       a.exports = t.p + "static/media/project-07.efb76d20.png";
     },
     function (a, i, t) {
+      a.exports = t.p + "static/media/sentiment.b35f209a.png";
+    },
+    function (a, i, t) {
+      a.exports = t.p + "static/media/stock.973877a4.webp";
+    },
+    function (a, i, t) {
+      a.exports = t.p + "static/media/transfer.1aec8f98.png";
+    },
+    function (a, i, t) {
+      a.exports = t.p + "static/media/twitter.f605b88d.png";
+    },
+    function (a, i, t) {
       a.exports = t.p + "static/media/voice.97948ca7.gif";
     },
     function (a, i, t) {},
@@ -251,10 +279,10 @@
         r = t.n(e),
         s = t(12),
         o = t.n(s),
-        n = t(142),
-        x = t(141),
+        n = t(149),
+        x = t(148),
         m = t(19),
-        l = t(140),
+        l = t(147),
         k = (t(59), t(60), t(6)),
         A = (t(61), t(4)),
         c = t(10);
@@ -301,10 +329,10 @@
               title: "Data Science & Analysis",
               fileName: "DataScienceImg",
               skills: [
-                "\u26a1 Developing highly scalable production-ready models for various deep learning and statistical use cases",
-                "\u26a1 Experience in working with Computer Vision using OpenCV and NLP projects(T5-Transformer & OpenAI)",
+                "\u26a1 Specialize in building and optimizing machine learning models for large-scale data analysis, employing advanced programming skills in Python, Java, and C/C++, and leveraging frameworks like TensorFlow.",
+                "\u26a1 Harness the capabilities of large language models (LLMs) to construct sophisticated AI applications, utilizing the Langchain framework to integrate conversational AI and advanced text processing into user-centric solutions.",
                 "\u26a1 Having good hands-on with Data Cleaning, processing & Analysing using Pandas, Tableau & PowerBI",
-                "\u26a1 Experience with Text-to-speech encoders/decoders (speech synthesis) & Voice Cloning",
+                "\u26a1 Apply expertise in computer vision and natural language processing to extract meaningful insights from complex datasets, leveraging tools like OpenCV and transformer models like those from OpenAI.",
               ],
               softwareSkills: [
                 {
@@ -313,9 +341,9 @@
                   style: { backgroundColor: "transparent" },
                 },
                 {
-                  skillName: "PyTorch",
-                  fontAwesomeClassname: "logos-pytorch",
-                  style: { backgroundColor: "transparent" },
+                  skillName: "OpenCV",
+                  fontAwesomeClassname: "simple-icons:opencv",
+                  style: { color: "#CC6699" },
                 },
                 {
                   skillName: "Python",
@@ -380,7 +408,7 @@
                 },
                 {
                   skillName: "NodeJS",
-                  fontAwesomeClassname: "simple-icons:node-dot-js",
+                  fontAwesomeClassname: "simple-icons:nodedotjs",
                   style: { color: "#339933" },
                 },
                 {
@@ -393,112 +421,95 @@
           ],
         },
         E = "Projects",
-        v =
+        g =
           "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
-        g = {
+        v = {
           list: [
             {
-              title: "TEATH",
-              img_path: "project-06.png",
+              title: "Hadoop MapReduce",
+              img_path: "hadoop1.webp",
               description:
-                "A WebApp for Extracting Text from Images and applying various thresholding methods with sentiment analysis using TextBlob",
+                "Developed innovative Python solution for high-performance Hadoop MapReduce emulation, boosting data processing and increasing efficiency.",
               tags: [
-                { lang: "python", color: "#004782" },
-                { lang: "TextBlob", color: "#820032" },
-                { lang: "OpenCV", color: "#00a100" },
-                { lang: "Streamlit", color: "#ff4b4b" },
-                { lang: "Heroku", color: "#3c0095" },
+                { lang: "Python", color: "#004782" },
+                { lang: "Flask", color: "#820032" },
               ],
-              link: "https://teath.herokuapp.com ",
-              code: "https://github.com/rohankokkula/TEATH",
+              code: "https://github.com/thebarcelonaguy/DSCI-551-Project",
               linkcolor: "white",
             },
             {
-              title: "Voice Gender Detection",
-              img_path: "voice.gif",
+              title: "Sentiment Analysis on Movie Reviews",
+              img_path: "sentiment.png",
               description:
-                "A streamlit webapp which detects user's gender and emotion based on realtime audio input.",
+                "Created a deep learning model to perform sentiment analysis on movie reviews using BERT, getting an accuracy of 94% on IMDB dataset. Focused on fairness and bias in AI to provide equitable predictions.",
               tags: [
-                { lang: "ongoing", color: "red" },
-                { lang: "python", color: "#004782" },
-                { lang: "matplotlib", color: "#c47206" },
-                { lang: "tensorflow", color: "#4257f5" },
-                { lang: "Streamlit", color: "#ff4b4b" },
+                { lang: "Python", color: "#004782" },
+                { lang: "BERT", color: "#c47206" },
+                { lang: "Scikit-learn", color: "#4257f5" },
+              ],
+              link: "",
+              code:
+                "https://github.com/thebarcelonaguy/MovieReviewSentimentAnalysis/tree/main/BERT_on_Movie_Reviews-main",
+              linkcolor: "white",
+            },
+            {
+              title: "Twitter Data Analytics",
+              img_path: "twitter.png",
+              description:
+                "Engineered a real-time ETL pipeline, streaming tweets to MySQL, analyzing sentiments with TextBlob, and summarizing via word cloud visualization.",
+              tags: [
+                { lang: "Python", color: "#004782" },
+                { lang: "MySQL", color: "#8700b0" },
+                { lang: "tweepy", color: "#c47206" },
+                { lang: "NLTK", color: "#ff4b4b" },
+                { lang: "Wordcloud", color: "#3c0095" },
+              ],
+              code: "https://github.com/thebarcelonaguy/TwitterETL",
+              linkcolor: "white",
+            },
+            {
+              title: "Landmark Classification with CNN",
+              img_path: "transfer.png",
+              description:
+                "Leveraged CNNs and transfer learning to classify landmark images, achieving 97% f1 score for categories and 87% for individual landmarks.",
+              tags: [
+                { lang: "Python", color: "#004782" },
+                { lang: "Flask", color: "#820032" },
+                { lang: "Tensorflow", color: "#c47206" },
               ],
               link: "",
               code: "",
               linkcolor: "white",
             },
             {
-              title: "NeuralViz",
-              img_path: "neural.gif",
+              title: "Stock Portfolio Management",
+              img_path: "stock.webp",
               description:
-                "A webapp to visualize Neural Networks based on no. of layers and neurons, calculate Loss and understand math behind Back Propagation algo.",
+                "Developed a stock portfolio management system with time series analysis using LSTM, enabling command-line trading signal predictions and performance tracking through MySQL integration and CSV reporting.",
               tags: [
-                { lang: "python", color: "#004782" },
-                { lang: "numpy", color: "#8700b0" },
-                { lang: "matplotlib", color: "#c47206" },
-                { lang: "Streamlit", color: "#ff4b4b" },
-                { lang: "Heroku", color: "#3c0095" },
-              ],
-              link: "https://neuralviz.herokuapp.com/",
-              code: "https://github.com/rohankokkula/neuralviz",
-              linkcolor: "white",
-            },
-            {
-              title: "Semantic Search APP",
-              img_path: "project-03.png",
-              description:
-                "Demo of OpenAI's GPT-3 model on Semantic search using streamlit.",
-              tags: [
-                { lang: "ongoing", color: "red" },
-                { lang: "Streamlit", color: "#ff4b4b" },
+                { lang: "Python", color: "#004782" },
+                { lang: "Pandas", color: "#051c61" },
+                { lang: "Scikit-learn", color: "#4257f5" },
+                { lang: "Tensorflow", color: "#c47206" },
+                { lang: "SQL", color: "#8700b0" },
               ],
               link: "",
-              code: "",
+              code: "https://github.com/thebarcelonaguy/StockMarketForcasting",
               linkcolor: "white",
             },
             {
-              title: "Youtube Thumbnail Generator & AutoUploader",
-              img_path: "project-02.png",
+              title: "PDFChatbot",
+              img_path: "pdf.webp",
               description:
-                "A python streamlit webapp to automate generating & uploading youtube thumbnails using Youtube v3 API",
+                "A Python GUI application that demonstrates how to build a custom PDF chatbot using LangChain and GPT 3.5 / Llama 2.t",
               tags: [
-                { lang: "internal project", color: "red" },
-                { lang: "youtube v3 api", color: "red" },
-              ],
-              link: "",
-              code: "",
-              linkcolor: "white",
-            },
-            {
-              title: "Newsearcher",
-              img_path: "news.gif",
-              description:
-                "Enter your search keyword and get a summary of news weblinks with images without actually opening the links.",
-              tags: [
-                { lang: "python", color: "#004782" },
-                { lang: "newspaper3k", color: "#303030" },
+                { lang: "Python", color: "#004782" },
+                { lang: "Langchain", color: "green" },
                 { lang: "Streamlit", color: "#ff4b4b" },
-                { lang: "nltk", color: "#051c61" },
+                { lang: "OpenAI", color: "#051c61" },
               ],
               link: "https://newsearcher.herokuapp.com/",
               code: "https://github.com/rohankokkula/Newsearcher",
-              linkcolor: "white",
-            },
-            {
-              title: "ActiWeight",
-              img_path: "acti.gif",
-              description:
-                "ActiWeight is an Interactive Visualizer for understanding intuition behind 10 Activation Functions used in Neural Networks.",
-              tags: [
-                { lang: "python", color: "#004782" },
-                { lang: "matplotlib", color: "#c47206" },
-                { lang: "Streamlit", color: "#ff4b4b" },
-                { lang: "Heroku", color: "#3c0095" },
-              ],
-              link: "https://www.youtube.com/watch?v=2vk9lQuX_1Q",
-              code: "https://github.com/rohankokkula/Actiweight",
               linkcolor: "white",
             },
           ],
@@ -915,9 +926,9 @@
       }
       var I = t(44),
         q = t.n(I),
-        Y = (t(79), t(139)),
-        U = t(134);
-      class Q extends r.a.Component {
+        Q = (t(79), t(146)),
+        Y = t(141);
+      class U extends r.a.Component {
         render() {
           return r.a.createElement(
             "div",
@@ -927,13 +938,13 @@
               { className: "dev-icons" },
               this.props.logos.map((a) =>
                 r.a.createElement(
-                  Y.a,
+                  Q.a,
                   {
                     key: a.siteName,
                     placement: "top",
                     style: { marginBottom: "5px" },
                     overlay: r.a.createElement(
-                      U.a,
+                      Y.a,
                       { id: "tooltip-top" },
                       r.a.createElement("strong", null, a.siteName)
                     ),
@@ -962,7 +973,7 @@
           );
         }
       }
-      var K = Q;
+      var K = U;
       function J(a) {
         const i = a.theme;
         return r.a.createElement(
@@ -1106,12 +1117,12 @@
                 { className: "dev-icons" },
                 this.props.logos.map((a) =>
                   r.a.createElement(
-                    Y.a,
+                    Q.a,
                     {
                       key: a.skillName,
                       placement: "top",
                       overlay: r.a.createElement(
-                        U.a,
+                        Y.a,
                         { id: "tooltip-top" },
                         r.a.createElement("strong", null, a.skillName)
                       ),
@@ -1387,7 +1398,7 @@
       }
       var Ea = ba;
       t(87), t(88);
-      class va extends e.Component {
+      class ga extends e.Component {
         render() {
           const a = this.props.certificate,
             i = this.props.theme;
@@ -1448,7 +1459,7 @@
           );
         }
       }
-      var ga = va;
+      var va = ga;
       class Da extends e.Component {
         render() {
           const a = this.props.theme;
@@ -1472,7 +1483,7 @@
               "div",
               { className: "certs-body-div" },
               V.certifications.map((i) =>
-                r.a.createElement(ga, { certificate: i, theme: a })
+                r.a.createElement(va, { certificate: i, theme: a })
               )
             )
           );
@@ -1495,9 +1506,9 @@
         );
       }
       t(40);
-      var Ba = t(135),
-        Pa = t(136),
-        Fa = t(137);
+      var Ba = t(142),
+        Pa = t(143),
+        Fa = t(144);
       var Sa = function (a) {
         return r.a.createElement(
           "div",
@@ -1809,10 +1820,10 @@
       }
       var Ra = Ca,
         Ia = t(51),
-        qa = t(138),
-        Ya = t(143);
+        qa = t(145),
+        Qa = t(150);
       t(105);
-      function Ua() {
+      function Ya() {
         const a = Object(e.useRef)(null);
         return (
           Object(e.useEffect)(() => {
@@ -1831,7 +1842,7 @@
           )
         );
       }
-      class Qa extends e.Component {
+      class Ua extends e.Component {
         render() {
           const a = this.props.theme;
           return r.a.createElement(
@@ -1850,7 +1861,7 @@
                   r.a.createElement(
                     "div",
                     { className: "projects-heading-img-div" },
-                    r.a.createElement(Ua, { theme: a })
+                    r.a.createElement(Ya, { theme: a })
                   ),
                   r.a.createElement(
                     "div",
@@ -1869,7 +1880,7 @@
                         className: "projects-header-detail-text subTitle",
                         style: { color: a.text },
                       },
-                      v
+                      g
                     )
                   )
                 )
@@ -1881,37 +1892,24 @@
               r.a.createElement(
                 qa.a,
                 null,
-                g.list.map((i) =>
+                v.list.map((i) =>
                   r.a.createElement(
-                    Ya.a,
+                    Qa.a,
                     { className: "h-100" },
-                    r.a.createElement(Ya.a.Img, {
+                    r.a.createElement(Qa.a.Img, {
                       variant: "top",
                       src: t(107)("./".concat(i.img_path)),
                     }),
                     r.a.createElement(
-                      Ya.a.Body,
+                      Qa.a.Body,
                       null,
                       r.a.createElement(
-                        Ya.a.Title,
+                        Qa.a.Title,
                         null,
                         r.a.createElement(
                           "h2",
                           { style: { lineHeight: "1.5", marginTop: "0" } },
                           i.title,
-                          r.a.createElement(
-                            "a",
-                            {
-                              style: { color: a.text },
-                              href: i.link,
-                              target: "_blank",
-                              rel: "noopener noreferrer",
-                            },
-                            r.a.createElement("i", {
-                              className: "fas fa-external-link-alt",
-                              style: { color: i.linkcolor, marginLeft: "10px" },
-                            })
-                          ),
                           r.a.createElement(
                             "a",
                             {
@@ -1951,7 +1949,7 @@
                         className: "text-center",
                         style: { marginTop: "20px" },
                       }),
-                      r.a.createElement(Ya.a.Text, null, i.description)
+                      r.a.createElement(Qa.a.Text, null, i.description)
                     )
                   )
                 )
@@ -1960,7 +1958,7 @@
             r.a.createElement(Z, {
               text: "More Projects",
               className: "project-button",
-              href: "https://github.com/rohankokkula",
+              href: "https://github.com/thebarcelonaguy",
               newTab: !0,
               theme: a,
             }),
@@ -1972,7 +1970,7 @@
           );
         }
       }
-      var Ka = Qa,
+      var Ka = Ua,
         Ja = t(9),
         _a = t(27);
       const $a = Object(Ja.a)();
@@ -2143,7 +2141,7 @@
             /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
           )
       );
-      t(121);
+      t(128);
       const ri = new l.a();
       o.a.render(
         r.a.createElement(
@@ -2161,4 +2159,4 @@
   ]),
   [[54, 1, 2]],
 ]);
-//# sourceMappingURL=main.e2faad9d.chunk.js.map
+//# sourceMappingURL=main.16a84bd5.chunk.js.map

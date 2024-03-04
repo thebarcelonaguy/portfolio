@@ -1269,12 +1269,12 @@ Hover Transition .twitter i:hover {
   border-radius: calc(0.25rem - 1px);
 }
 .card-img-top {
-  width: 100%;
+  width: 75%;
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
 }
 .card-img-bottom {
-  width: 100%;
+  width: 75%;
   border-bottom-right-radius: calc(0.25rem - 1px);
   border-bottom-left-radius: calc(0.25rem - 1px);
 }
@@ -6035,4 +6035,4 @@ a.badge-dark:focus {
 .fas {
   font-weight: 900;
 }
-/*# sourceMappingURL=main.ec2ab0a8.chunk.css.map */
+/*# sourceMappingURL=main.687ec343.chunk.css.map */

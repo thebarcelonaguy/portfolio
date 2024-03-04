@@ -84,10 +84,10 @@ const skills = {
       title: "Data Science & Analysis",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production-ready models for various deep learning and statistical use cases",
-        "⚡ Experience in working with Computer Vision using OpenCV and NLP projects(T5-Transformer & OpenAI)",
+        "⚡ Specialize in building and optimizing machine learning models for large-scale data analysis, employing advanced programming skills in Python, Java, and C/C++, and leveraging frameworks like TensorFlow.",
+        "⚡ Harness the capabilities of large language models (LLMs) to construct sophisticated AI applications, utilizing the Langchain framework to integrate conversational AI and advanced text processing into user-centric solutions.",
         "⚡ Having good hands-on with Data Cleaning, processing & Analysing using Pandas, Tableau & PowerBI",
-        "⚡ Experience with Text-to-speech encoders/decoders (speech synthesis) & Voice Cloning",
+        "⚡ Apply expertise in computer vision and natural language processing to extract meaningful insights from complex datasets, leveraging tools like OpenCV and transformer models like those from OpenAI.",
       ],
       softwareSkills: [
         {
@@ -98,10 +98,10 @@ const skills = {
           },
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "OpenCV",
+          fontAwesomeClassname: "simple-icons:opencv",
           style: {
-            backgroundColor: "transparent",
+            color: "#CC6699",
           },
         },
         {
@@ -190,7 +190,7 @@ const skills = {
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "simple-icons:nodedotjs",
           style: {
             color: "#339933",
           },
@@ -259,112 +259,97 @@ const projectsHeader = {
 const projectcards = {
   list: [
     {
-      title: "TEATH",
-      img_path: "project-06.png",
+      title: "Hadoop MapReduce",
+      img_path: "hadoop1.webp",
       description:
-        "A WebApp for Extracting Text from Images and applying various thresholding methods with sentiment analysis using TextBlob",
+        "Developed innovative Python solution for high-performance Hadoop MapReduce emulation, boosting data processing and increasing efficiency.",
       tags: [
         {
-          lang: "python",
+          lang: "Python",
           color: "#004782",
         },
         {
-          lang: "TextBlob",
+          lang: "Flask",
           color: "#820032",
         },
-        {
-          lang: "OpenCV",
-          color: "#00a100",
-        },
-        {
-          lang: "Streamlit",
-          color: "#ff4b4b",
-        },
-        {
-          lang: "Heroku",
-          color: "#3c0095",
-        },
       ],
-      link: "https://teath.herokuapp.com ",
-      code: "https://github.com/rohankokkula/TEATH",
+      // link: "https://teath.herokuapp.com ",
+      code: "https://github.com/thebarcelonaguy/DSCI-551-Project",
       linkcolor: "white",
     },
 
     {
-      title: "Voice Gender Detection",
-      img_path: "voice.gif",
+      title: "Sentiment Analysis on Movie Reviews",
+      img_path: "sentiment.png",
       description:
-        "A streamlit webapp which detects user's gender and emotion based on realtime audio input.",
+        "Created a deep learning model to perform sentiment analysis on movie reviews using BERT, getting an accuracy of 94% on IMDB dataset. Focused on fairness and bias in AI to provide equitable predictions.",
       tags: [
         {
-          lang: "ongoing",
-          color: "red",
-        },
-        {
-          lang: "python",
+          lang: "Python",
           color: "#004782",
         },
         {
-          lang: "matplotlib",
+          lang: "BERT",
           color: "#c47206",
         },
         {
-          lang: "tensorflow",
+          lang: "Scikit-learn",
           color: "#4257f5",
-        },
-        {
-          lang: "Streamlit",
-          color: "#ff4b4b",
         },
       ],
       link: "",
-      code: "",
+      code:
+        "https://github.com/thebarcelonaguy/MovieReviewSentimentAnalysis/tree/main/BERT_on_Movie_Reviews-main",
       linkcolor: "white",
     },
     {
-      title: "NeuralViz",
-      img_path: "neural.gif",
+      title: "Twitter Data Analytics",
+      img_path: "twitter.png",
       description:
-        "A webapp to visualize Neural Networks based on no. of layers and neurons, calculate Loss and understand math behind Back Propagation algo.",
+        "Engineered a real-time ETL pipeline, streaming tweets to MySQL, analyzing sentiments with TextBlob, and summarizing via word cloud visualization.",
       tags: [
         {
-          lang: "python",
+          lang: "Python",
           color: "#004782",
         },
         {
-          lang: "numpy",
+          lang: "MySQL",
           color: "#8700b0",
         },
         {
-          lang: "matplotlib",
+          lang: "tweepy",
           color: "#c47206",
         },
         {
-          lang: "Streamlit",
+          lang: "NLTK",
           color: "#ff4b4b",
         },
         {
-          lang: "Heroku",
+          lang: "Wordcloud",
           color: "#3c0095",
         },
       ],
-      link: "https://neuralviz.herokuapp.com/",
-      code: "https://github.com/rohankokkula/neuralviz",
+      // link: "https://neuralviz.herokuapp.com/",
+      code: "https://github.com/thebarcelonaguy/TwitterETL",
       linkcolor: "white",
     },
     {
-      title: "Semantic Search APP",
-      img_path: "project-03.png",
+      title: "Landmark Classification with CNN",
+      img_path: "transfer.png",
       description:
-        "Demo of OpenAI's GPT-3 model on Semantic search using streamlit.",
+        "Leveraged CNNs and transfer learning to classify landmark images, achieving 97% f1 score for categories and 87% for individual landmarks.",
       tags: [
         {
-          lang: "ongoing",
-          color: "red",
+          lang: "Python",
+          color: "#004782",
         },
         {
-          lang: "Streamlit",
-          color: "#ff4b4b",
+          lang: "Flask",
+          color: "#820032",
+        },
+        {
+          lang: "Tensorflow",
+          color: "#c47206",
         },
       ],
       link: "",
@@ -372,45 +357,57 @@ const projectcards = {
       linkcolor: "white",
     },
     {
-      title: "Youtube Thumbnail Generator & AutoUploader",
-      img_path: "project-02.png",
+      title: "Stock Portfolio Management",
+      img_path: "stock.webp",
       description:
-        "A python streamlit webapp to automate generating & uploading youtube thumbnails using Youtube v3 API",
+        "Developed a stock portfolio management system with time series analysis using LSTM, enabling command-line trading signal predictions and performance tracking through MySQL integration and CSV reporting.",
       tags: [
         {
-          lang: "internal project",
-          color: "red",
+          lang: "Python",
+          color: "#004782",
         },
         {
-          lang: "youtube v3 api",
-          color: "red",
+          lang: "Pandas",
+          color: "#051c61",
+        },
+        {
+          lang: "Scikit-learn",
+          color: "#4257f5",
+        },
+        {
+          lang: "Tensorflow",
+          color: "#c47206",
+        },
+        {
+          lang: "SQL",
+          color: "#8700b0",
         },
       ],
       link: "",
-      code: "",
+      code: "https://github.com/thebarcelonaguy/StockMarketForcasting",
       linkcolor: "white",
     },
 
     {
-      title: "Newsearcher",
-      img_path: "news.gif",
+      title: "PDFChatbot",
+      img_path: "pdf.webp",
       description:
-        "Enter your search keyword and get a summary of news weblinks with images without actually opening the links.",
+        "A Python GUI application that demonstrates how to build a custom PDF chatbot using LangChain and GPT 3.5 / Llama 2.t",
       tags: [
         {
-          lang: "python",
+          lang: "Python",
           color: "#004782",
         },
         {
-          lang: "newspaper3k",
-          color: "#303030",
+          lang: "Langchain",
+          color: "green",
         },
         {
           lang: "Streamlit",
           color: "#ff4b4b",
         },
         {
-          lang: "nltk",
+          lang: "OpenAI",
           color: "#051c61",
         },
       ],
@@ -418,33 +415,33 @@ const projectcards = {
       code: "https://github.com/rohankokkula/Newsearcher",
       linkcolor: "white",
     },
-    {
-      title: "ActiWeight",
-      img_path: "acti.gif",
-      description:
-        "ActiWeight is an Interactive Visualizer for understanding intuition behind 10 Activation Functions used in Neural Networks.",
-      tags: [
-        {
-          lang: "python",
-          color: "#004782",
-        },
-        {
-          lang: "matplotlib",
-          color: "#c47206",
-        },
-        {
-          lang: "Streamlit",
-          color: "#ff4b4b",
-        },
-        {
-          lang: "Heroku",
-          color: "#3c0095",
-        },
-      ],
-      link: "https://www.youtube.com/watch?v=2vk9lQuX_1Q",
-      code: "https://github.com/rohankokkula/Actiweight",
-      linkcolor: "white",
-    },
+    // {
+    //   title: "ActiWeight",
+    //   img_path: "acti.gif",
+    //   description:
+    //     "ActiWeight is an Interactive Visualizer for understanding intuition behind 10 Activation Functions used in Neural Networks.",
+    //   tags: [
+    //     {
+    //       lang: "python",
+    //       color: "#004782",
+    //     },
+    //     {
+    //       lang: "matplotlib",
+    //       color: "#c47206",
+    //     },
+    //     {
+    //       lang: "Streamlit",
+    //       color: "#ff4b4b",
+    //     },
+    //     {
+    //       lang: "Heroku",
+    //       color: "#3c0095",
+    //     },
+    //   ],
+    //   link: "https://www.youtube.com/watch?v=2vk9lQuX_1Q",
+    //   code: "https://github.com/rohankokkula/Actiweight",
+    //   linkcolor: "white",
+    // },
   ],
 };
 

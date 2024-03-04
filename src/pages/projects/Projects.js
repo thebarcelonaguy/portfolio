@@ -53,7 +53,7 @@ class Projects extends Component {
                     <Card.Title>
                       <h2 style={{ lineHeight: "1.5", marginTop: "0" }}>
                         {proj.title}
-                        <a
+                        {/* <a
                           style={{ color: theme.text }}
                           href={proj.link}
                           target="_blank"
@@ -66,7 +66,7 @@ class Projects extends Component {
                               marginLeft: "10px",
                             }}
                           ></i>
-                        </a>
+                        </a> */}
                         <a
                           style={{ color: theme.text }}
                           href={proj.code}
@@ -112,7 +112,7 @@ class Projects extends Component {
         <Button
           text={"More Projects"}
           className="project-button"
-          href="https://github.com/rohankokkula"
+          href="https://github.com/thebarcelonaguy"
           newTab={true}
           theme={theme}
         />
