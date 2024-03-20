@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import Button from "../../components/button/Button";
-import Badge from "react-bootstrap/Badge";
-import TopButton from "../../components/topButton/TopButton";
+// import Button from "../../components/button/Button";
+// import Badge from "react-bootstrap/Badge";
+// import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import { projectsHeader } from "../../portfolio.js";
-import { projectcards } from "../../portfolio";
-import { CardColumns, Card } from "react-bootstrap";
-import ProjectsImg from "../projects/ProjectsImg";
+// import { projectcards } from "../../portfolio";
+// import { CardColumns, Card } from "react-bootstrap";
+// import ProjectsImg from "../projects/ProjectsImg";
 import "../projects/Projects.css";
 
 export default class About extends Component {

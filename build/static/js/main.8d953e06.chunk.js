@@ -1,7 +1,7 @@
 (this.webpackJsonpdatasciencefolio =
   this.webpackJsonpdatasciencefolio || []).push([
   [0],
-  Array(26).concat([
+  Array(25).concat([
     function (a, i, t) {
       a.exports = t.p + "static/media/logo-01.6aa5c6bd.png";
     },
@@ -32,6 +32,7 @@
     function (a, i, t) {
       a.exports = t.p + "static/media/web.9331f972.svg";
     },
+    ,
     ,
     ,
     ,
@@ -704,7 +705,7 @@
             backgroundColor: "lightblue",
           },
         ];
-      var T = t(43);
+      var T = t(42);
       var O = function () {
           var a, i, t;
           return r.a.createElement(
@@ -747,7 +748,7 @@
             })
           );
         },
-        N = t(26),
+        N = t(25),
         M = t.n(N);
       const j = (a, i) => {
           a.target.style.backgroundColor = i;
@@ -939,7 +940,7 @@
           r.a.createElement("div", { className: "greeting-image-div", ref: a })
         );
       }
-      var I = t(46),
+      var I = t(45),
         q = t.n(I),
         Q = (t(80), t(146)),
         Y = t(141);
@@ -1118,7 +1119,7 @@
           )
         );
       }
-      t(40), t(82);
+      t(39), t(82);
       class _ extends r.a.Component {
         render() {
           return r.a.createElement(
@@ -1160,7 +1161,7 @@
         }
       }
       var $ = _,
-        aa = t(48),
+        aa = t(47),
         ia = t.n(aa);
       class ta extends e.Component {
         render() {
@@ -1176,7 +1177,7 @@
         }
       }
       var ea = ta,
-        ra = t(49),
+        ra = t(48),
         sa = t.n(ra);
       class oa extends e.Component {
         render() {
@@ -1520,7 +1521,7 @@
           r.a.createElement("div", { className: "container", ref: a })
         );
       }
-      t(41);
+      t(40);
       var Ba = t(142),
         Pa = t(143),
         Fa = t(144);
@@ -1676,7 +1677,7 @@
       }
       var Na,
         Ma = Oa,
-        ja = t(27),
+        ja = t(26),
         La = (t(103), t(22));
       const Wa = La.c.span(
         Na ||
@@ -1834,10 +1835,10 @@
         }
       }
       var Ra = Ha,
-        Ia = t(32),
+        Ia = t(52),
         qa = t(145),
         Qa = t(150);
-      t(42);
+      t(41);
       function Ya() {
         const a = Object(e.useRef)(null);
         return (
@@ -2033,7 +2034,7 @@
         }
       }
       var _a = t(9),
-        $a = t(28);
+        $a = t(27);
       const ai = Object(_a.a)();
       ai.listen((a) => {
         $a.a.pageview(a.pathname), console.log(a.pathname);
@@ -2236,4 +2237,4 @@
   ]),
   [[55, 1, 2]],
 ]);
-//# sourceMappingURL=main.cb095256.chunk.js.map
+//# sourceMappingURL=main.8d953e06.chunk.js.map
