@@ -5,6 +5,7 @@ import Splash from "../pages/splash/Splash";
 import Education from "../pages/EduEx/EducationComponent";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
+import About from "../pages/aboutMe/About";
 import { settings } from "../portfolio.js";
 import { createBrowserHistory } from "history";
 
@@ -32,6 +33,12 @@ export default class Main extends Component {
               <Route
                 path="/home"
                 render={(props) => <Home {...props} theme={this.props.theme} />}
+              />
+              <Route
+                path="/about"
+                render={(props) => (
+                  <About {...props} theme={this.props.theme} />
+                )}
               />
               <Route
                 path="/education"
@@ -74,6 +81,12 @@ export default class Main extends Component {
               <Route
                 path="/home"
                 render={(props) => <Home {...props} theme={this.props.theme} />}
+              />
+              <Route
+                path="/about"
+                render={(props) => (
+                  <About {...props} theme={this.props.theme} />
+                )}
               />
               <Route
                 path="/education"
