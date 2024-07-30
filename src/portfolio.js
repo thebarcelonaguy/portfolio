@@ -17,7 +17,7 @@ const seo = {
 //Home Page
 const greeting = {
   title: "Hi 👋!",
-  sub: " Seeking for Summer'24 Internships",
+  sub: " Seeking for Full time Opportunities",
   logo_name: "Riten Bhagra",
   resumeLink:
     "https://drive.google.com/file/d/1SuZF_AJQpcN7S3jL_9NEazbHLYdNTjQF/view?usp=sharing",
